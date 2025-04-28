@@ -17,8 +17,10 @@ public class Main {
         // boolean result = lastIndex.isEndWithZero(1252);
         // WhichTwo whichtwo = new WhichTwo();
         // String result = whichtwo.whichTwo(10, 5, 15);
-        EvenorOdd evenOrOdd = new EvenorOdd();
-        String result = evenOrOdd.evenOrOdd(51);
+        // EvenorOdd evenOrOdd = new EvenorOdd();
+        // String result = evenOrOdd.evenOrOdd(51);
+        RockPaperScissors game = new RockPaperScissors();
+        Integer result = game.rockPaperScissors("rock", "paper");
         System.out.println(result + " giiiirrl");
     }
 }
