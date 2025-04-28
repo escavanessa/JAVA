@@ -1,5 +1,11 @@
 public class GradeCalc {
     public Boolean isPassed(Boolean passedExam, Boolean passedAssignments, Boolean passedProject) {
-        //code here
+        int count = 0;
+
+        if(passedExam) count++;
+        if(passedAssignments) count++;
+        if(passedProject) count ++;
+
+        return count >= 2;
     }
 }
