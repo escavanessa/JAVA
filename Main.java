@@ -19,8 +19,14 @@ public class Main {
         // String result = whichtwo.whichTwo(10, 5, 15);
         // EvenorOdd evenOrOdd = new EvenorOdd();
         // String result = evenOrOdd.evenOrOdd(51);
-        RockPaperScissors game = new RockPaperScissors();
-        Integer result = game.rockPaperScissors("rock", "paper");
+        // RockPaperScissors game = new RockPaperScissors();
+        // Integer result = game.rockPaperScissors("rock", "paper");
+        // System.out.println(result + " giiiirrl");
+        // AddTwo AddTwo = new AddTwo();
+        // Integer result = AddTwo.addtwo(2, 5);
+        // System.out.println(result + " giiiirrl");
+        CompanionPlant CompanionPlant = new CompanionPlant();
+        Boolean result = CompanionPlant.companionPlants("lettuce", "cucumber");
         System.out.println(result + " giiiirrl");
     }
 }
